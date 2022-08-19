@@ -1,0 +1,265 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+body{
+    font-family: 'NanumSquareRound';
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+}
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'KoPubDotumMedium';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*--기본세팅--*/
+
+/*--top st--*/
+#t_header{
+    width: 1920px;
+    height: 190px;
+    position: relative;
+}
+
+.t_header_inner{
+    position: absolute;
+    width: 1920px;
+    height: 190px;
+}
+
+#top{
+    width: 1320px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.search{
+    width: 220px;
+    height: 35px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 3px solid #fdb72f;
+    box-sizing: border-box;
+    float: left;
+    background: url(../images/search.png) no-repeat 180px center;
+}
+
+.logo{
+    width: 277px;
+    height: 71px;
+    position: absolute;
+    left: 50%;
+    margin-left: -138.5px;
+}
+
+.login{
+    float: right;
+}
+
+.login a{
+    float: left;
+    padding: 35px 10px;
+    font-size: 14px;
+}
+
+.login a:hover{
+    color: #fdb72f;
+    text-decoration: underline;
+}
+
+/*--top en--*/
+
+/*--menu st--*/
+#header{
+   width: 880px;
+   height: 50px;
+   margin: 0 auto;
+}
+
+.nav li{
+    float: left;  
+}
+
+.nav li a{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold; 
+    padding: 12px 73px;
+}
+
+.nav li a:hover {
+    background: url(../images/m_hover.png)no-repeat 65px 10px;
+}
+/*--menu en--*/
+
+/*--banner st--*/
+.banner{
+    width: 100%;
+    height: 673px;
+    margin-bottom: 250px;
+}
+/*--banner en--*/
+.banner img{width:100%; display: block;}
+
+#event{
+    width: 1320px;
+    height: 3000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#event h1{
+    font-family: 'yg-jalnan';
+    font-size: 40px;
+    display:  inline-block;
+    padding: 25px;
+    background: url(../images/bg_circle.png) no-repeat left top;
+    margin-bottom: 10px;
+}
+
+
+.font_size{
+    font-size: 24px;
+    font-weight: 500;      
+}
+.event_inner{
+    width: 1320px;
+    height: 3000px;
+    margin-top: 80px;
+}
+
+.event_inner li{
+    width: 638px;
+    height: 800px;
+    float: left;
+    margin-bottom: 90px;
+}
+
+.event_inner img{
+    display: block;
+}
+
+.event_mall_text{
+    width: 638px;
+    height: 235px;
+    border: 1px solid #898989;
+    box-sizing: border-box;
+    border-top: 0px solid #000;
+}
+
+.margin{
+    margin-right: 44px;
+}
+
+.event_mall_text h5{
+    font-family: 'yg-jalnan';
+    font-size: 30px;
+    padding-top: 50px;
+
+}
+
+.event_mall_text p{
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 35px;
+}
+
+
+
+/*--footer--*/
+
+#footer{
+    width: 100%;
+    height: 250px;
+    background-color: #fdb72f;
+}
+
+.footer_inner{
+    width: 1320px;
+    /* height: 200px; */
+    margin: 0 auto;
+
+
+}
+
+.footer_inner .f_logo{
+    width: 144px;
+    height: 105px;
+    float: left;
+    padding-top: 65px;
+}
+
+.footer_inner .f_logo img{
+    padding-right: 100px;
+
+}
+
+.f_box{
+    width: 600px;
+    height: 80px;
+    float: left;
+}
+
+.f_menu li{
+    float: left;
+    padding: 10px 20px 10px 0;
+    font-weight: bold;
+}
+
+.f_menu li:hover{
+    color: #fff;
+}
+
+.footer_inner .sns{
+    padding-top: 60px;
+    float: right;
+}
+
+.footer_inner .sns li{
+    float: left;
+    padding: 0 10px;
+    opacity: initial;
+}
+
+.sns li img{
+    opacity: calc(0.5);
+}
+
+.sns li img:hover{
+    opacity: calc(1);
+}
+
+
+/* .f_logo{float:left;} */
+.f_text{
+    float:left;
+    width:550px;
+    margin: 50px;
+}
+
+/* top버튼 */
+.button{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 100;
+  }
