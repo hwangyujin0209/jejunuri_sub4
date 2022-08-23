@@ -33,14 +33,14 @@ body{
 
 /*--top st--*/
 #t_header{
-    width: 1920px;
+    /* width: 1920px; */
     height: 190px;
     position: relative;
 }
 
 .t_header_inner{
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 190px;
 }
 
